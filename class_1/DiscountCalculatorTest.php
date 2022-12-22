@@ -5,7 +5,7 @@ class DiscountCalculatorTest
     const SUCCESS = "\xE2\x9C\x85";
     const FAIL = "\xE2\x9D\x8C";
 
-    public function ShoudApplyWhenValueIsAboveTheMinimum()
+    public function ShoudApplyWhenValueIsAboveTheMinimumTest()
     {
         $discountCalculator = new DiscountCalculator();
 
