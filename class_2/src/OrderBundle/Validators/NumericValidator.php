@@ -1,6 +1,6 @@
 <?php
 
-namespace OrderBundle\Validators;
+namespace Src\OrderBundle\Validators;
 
 class NumericValidator
 {
@@ -13,6 +13,9 @@ class NumericValidator
 
     public function isValid()
     {
+        if (is_string($this->value)) {
+            return false;
+        }
         return is_numeric($this->value);
     }
 }
