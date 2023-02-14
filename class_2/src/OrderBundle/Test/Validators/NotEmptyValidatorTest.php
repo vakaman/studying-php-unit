@@ -25,19 +25,23 @@ class NotEmptyValidatorTest extends TestCase
         $this->assertTrue($isValid);
     }
 
-    public function test_is_valid()
+    /**
+     * @dataProvider valueProvider
+     */
+    public function test_is_valid($value, $expectedResult)
     {
-        $dataProvider = [
-            '' => false,
-            'duvidei' => true
+        $notEmptyValidator = new NotEmptyValidator($value);
+
+        $isValid = $notEmptyValidator->isValid();
+
+        $this->assertEquals($expectedResult, $isValid);
+    }
+
+    public static function valueProvider()
+    {
+        return [
+            'test_should_not_be_valid_when_value_is_empty' => ['value' => '', 'expectedResult' => false],
+            'test_should_be_valid_when_value_is_not_empty' => ['value' => 'duvidei', 'expectedResult' => true]
         ];
-
-        foreach ($dataProvider as $value => $expectedValue) {
-            $notEmptyValidator = new NotEmptyValidator($value);
-
-            $isValid = $notEmptyValidator->isValid();
-
-            $this->assertEquals($expectedValue, $isValid);
-        }
     }
 }
