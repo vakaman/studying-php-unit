@@ -22,8 +22,9 @@ class NumericValidatorTest extends TestCase
     public static function valueProvider()
     {
         return [
-            'test_should_not_be_valid_when_value_is_not_numeric' => ['value' => '123', 'expectedResult' => false],
-            'test_should_be_valid_when_value_is_numeric' => ['value' => 123, 'expectedResult' => true]
+            'should_not_be_valid_when_value_is_not_numeric' => ['value' => '123', 'expectedResult' => false],
+            'should_be_valid_when_value_is_numeric' => ['value' => 123, 'expectedResult' => true],
+            'should_not_be_valid_when_value_is_empty' => ['value' => '', 'expectedResult' => false]
         ];
     }
 }
