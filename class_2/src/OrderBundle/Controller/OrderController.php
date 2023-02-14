@@ -13,8 +13,8 @@ use OrderBundle\Repository\ItemRepository;
 
 use OrderBundle\Validators\CreditCardExpirationValidator;
 use OrderBundle\Validators\CreditCardNumberValidator;
-use OrderBundle\Validators\NotEmptyValidator;
-use OrderBundle\Validators\NumericValidator;
+use Src\OrderBundle\Validators\NotEmptyValidator;
+use Src\OrderBundle\Validators\NumericValidator;
 use OrderBundle\Service\OrderService;
 
 use OrderBundle\Exception\BadWordsFoundException;
