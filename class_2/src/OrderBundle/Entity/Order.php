@@ -3,6 +3,7 @@
 namespace OrderBundle\Entity;
 
 use PaymentBundle\Entity\PaymentTransaction;
+use Src\OrderBundle\Entity\Customer;
 
 class Order
 {

@@ -4,7 +4,7 @@ namespace PaymentBundle\Service;
 
 use MyFramework\Controller\HttpClientInterface;
 use OrderBundle\Entity\CreditCard;
-use OrderBundle\Entity\Customer;
+use Src\OrderBundle\Entity\Customer;
 use OrderBundle\Entity\Item;
 use PaymentBundle\Entity\PaymentTransaction;
 use PaymentBundle\Exception\PaymentErrorException;

@@ -3,7 +3,7 @@
 namespace MyFramework;
 
 use OrderBundle\Entity\CreditCard;
-use OrderBundle\Entity\Customer;
+use Src\OrderBundle\Entity\Customer;
 
 interface HttpClientInterface
 {

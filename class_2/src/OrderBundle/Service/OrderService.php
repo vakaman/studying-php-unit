@@ -4,7 +4,7 @@ namespace OrderBundle\Service;
 
 use FidelityProgramBundle\Service\FidelityProgramService;
 use OrderBundle\Entity\CreditCard;
-use OrderBundle\Entity\Customer;
+use Src\OrderBundle\Entity\Customer;
 use OrderBundle\Entity\Item;
 use OrderBundle\Entity\Order;
 use OrderBundle\Exception\BadWordsFoundException;

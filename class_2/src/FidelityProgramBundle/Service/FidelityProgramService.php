@@ -5,7 +5,7 @@ namespace FidelityProgramBundle\Service;
 use FidelityProgramBundle\Entity\Points;
 use FidelityProgramBundle\Repository\PointsRepositoryInterface;
 use MyFramework\LoggerInterface;
-use OrderBundle\Entity\Customer;
+use Src\OrderBundle\Entity\Customer;
 
 class FidelityProgramService
 {

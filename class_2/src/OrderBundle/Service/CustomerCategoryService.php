@@ -2,7 +2,7 @@
 
 namespace OrderBundle\Service;
 
-use OrderBundle\Entity\Customer;
+use Src\OrderBundle\Entity\Customer;
 
 class CustomerCategoryService
 {

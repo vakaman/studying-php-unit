@@ -4,7 +4,7 @@ namespace OrderBundle\Repository;
 
 use MyFramework\DataBase\ORM;
 
-use OrderBundle\Entity\Customer;
+use Src\OrderBundle\Entity\Customer;
 
 class CustomerRepository extends ORM
 {

@@ -2,7 +2,7 @@
 
 namespace PaymentBundle\Entity;
 
-use OrderBundle\Entity\Customer;
+use Src\OrderBundle\Entity\Customer;
 use OrderBundle\Entity\Item;
 
 class PaymentTransaction
