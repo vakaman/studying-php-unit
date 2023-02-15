@@ -1,8 +1,8 @@
 <?php
 
-namespace OrderBundle\Service;
+namespace Src\OrderBundle\Service;
 
-use OrderBundle\Repository\BadWordsRepositoryInterface;
+use Src\OrderBundle\Repository\BadWordsRepositoryInterface;
 
 class BadWordsValidator
 {

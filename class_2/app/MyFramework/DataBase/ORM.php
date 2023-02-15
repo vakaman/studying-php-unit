@@ -1,6 +1,6 @@
 <?php
 
-namespace MyFramework\DataBase;
+namespace App\MyFramework\DataBase;
 
 use MyFramework\DataBase;
 

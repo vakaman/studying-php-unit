@@ -1,6 +1,6 @@
 <?php
 
-namespace OrderBundle\Repository;
+namespace Src\OrderBundle\Repository;
 
 interface BadWordsRepositoryInterface
 {

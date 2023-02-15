@@ -1,9 +1,9 @@
 <?php
 
-namespace OrderBundle\Repository;
+namespace Src\OrderBundle\Repository;
 
-use MyFramework\DataBase;
-use MyFramework\DataBase\ORM;
+use App\MyFramework\DataBase\ORM;
+use Src\OrderBundle\Repository\BadWordsRepositoryInterface;
 
 class BadWordsRepository extends ORM implements BadWordsRepositoryInterface
 {

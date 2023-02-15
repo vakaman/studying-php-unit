@@ -12,6 +12,7 @@ use OrderBundle\Exception\CustomerNotAllowedException;
 use OrderBundle\Exception\ItemNotAvailableException;
 use OrderBundle\Repository\OrderRepository;
 use PaymentBundle\Service\PaymentService;
+use Src\OrderBundle\Service\BadWordsValidator;
 
 class OrderService
 {
