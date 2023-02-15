@@ -1,6 +1,6 @@
 <?php
 
-namespace App\OrderBundle\Test\Validator;
+namespace App\OrderBundle\Test\Entity;
 
 use PHPUnit\Framework\TestCase;
 use Src\OrderBundle\Entity\Customer;
