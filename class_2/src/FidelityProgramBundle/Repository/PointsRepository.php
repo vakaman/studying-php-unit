@@ -1,8 +1,9 @@
 <?php
 
-namespace FidelityProgramBundle\Repository;
+namespace Src\FidelityProgramBundle\Repository;
 
-use MyFramework\DataBase\ORM;
+use App\MyFramework\DataBase\ORM;
+use Src\FidelityProgramBundle\Repository\PointsRepositoryInterface;
 
 class PointsRepository extends ORM implements PointsRepositoryInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FidelityProgramBundle\Service;
+namespace Src\FidelityProgramBundle\Service;
 
 class PointsCalculator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FidelityProgramBundle\Entity;
+namespace Src\FidelityProgramBundle\Entity;
 
 use Src\OrderBundle\Entity\Customer;
 

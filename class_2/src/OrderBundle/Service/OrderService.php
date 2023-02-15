@@ -2,7 +2,7 @@
 
 namespace OrderBundle\Service;
 
-use FidelityProgramBundle\Service\FidelityProgramService;
+use Src\FidelityProgramBundle\Service\FidelityProgramService;
 use OrderBundle\Entity\CreditCard;
 use Src\OrderBundle\Entity\Customer;
 use OrderBundle\Entity\Item;
