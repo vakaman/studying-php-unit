@@ -11,8 +11,8 @@ use OrderBundle\Entity\CreditCard;
 use OrderBundle\Repository\CustomerRepository;
 use OrderBundle\Repository\ItemRepository;
 
-use OrderBundle\Validators\CreditCardExpirationValidator;
-use OrderBundle\Validators\CreditCardNumberValidator;
+use Src\OrderBundle\Validators\CreditCardExpirationValidator;
+use Src\OrderBundle\Validators\CreditCardNumberValidator;
 use Src\OrderBundle\Validators\NotEmptyValidator;
 use Src\OrderBundle\Validators\NumericValidator;
 use OrderBundle\Service\OrderService;
