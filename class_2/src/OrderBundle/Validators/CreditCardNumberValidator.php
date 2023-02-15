@@ -1,6 +1,6 @@
 <?php
 
-namespace OrderBundle\Validators;
+namespace Src\OrderBundle\Validators;
 
 class CreditCardNumberValidator
 {
